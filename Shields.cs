@@ -1,7 +1,4 @@
-﻿using CNC5Core;
-using HMIAPI;
-
-namespace PluginIGEMS
+﻿namespace PluginIGEMS
 {
     internal class Shields
     {

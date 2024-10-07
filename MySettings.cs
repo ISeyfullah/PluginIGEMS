@@ -1,5 +1,4 @@
 ﻿using CNC5Core;
-using HMI5;
 using HMIControls;
 
 namespace PluginIGEMS
