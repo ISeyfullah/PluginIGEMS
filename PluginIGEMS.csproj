@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoralCore.Base" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CNC5Core">
+      <HintPath>..\..\Program Files (x86)\IGEMS_CNC_5\bin\CNC5Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HMI5">
+      <HintPath>..\..\Program Files (x86)\IGEMS_CNC_5\bin\HMI5.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HMIControls">
+      <HintPath>..\..\Program Files (x86)\IGEMS_CNC_5\bin\HMIControls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
