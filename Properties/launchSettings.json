@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PluginIGEMS": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\IGEMS_CNC_5\\bin\\HMI5.exe"
+    }
+  }
+}
