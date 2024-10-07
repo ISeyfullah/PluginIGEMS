@@ -15,12 +15,15 @@
   <ItemGroup>
     <Reference Include="CNC5Core">
       <HintPath>..\..\..\..\..\Program Files (x86)\IGEMS_CNC_5\bin\CNC5Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HMI5">
       <HintPath>..\..\..\..\..\Program Files (x86)\IGEMS_CNC_5\bin\HMI5.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HMIControls">
       <HintPath>..\..\..\..\..\Program Files (x86)\IGEMS_CNC_5\bin\HMIControls.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 
