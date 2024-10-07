@@ -9,7 +9,7 @@ namespace PluginIGEMS
         internal static Machine? Machine;
         internal IndicatorTower indicatorTower;
         internal Drill drill;
-        bool seyfdeneme;
+        bool seyfdeneme; 
         
 
         public MyPlugin() { }
