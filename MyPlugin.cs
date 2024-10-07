@@ -36,8 +36,6 @@ namespace PluginIGEMS
 
             //Subscribe for Building GUI Even
             HMIEvents.BuildingGUI += HMIEvents_BuildingGUI;
-
-
         }
 
         private void IntegratorSettingsCustomAction(object? sender, EventArgs e)
